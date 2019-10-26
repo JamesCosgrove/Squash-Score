@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A6A555A2364C46E004CC535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A55592364C46E004CC535 /* AppDelegate.swift */; };
+		1A6A555C2364C46E004CC535 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A555B2364C46E004CC535 /* SceneDelegate.swift */; };
+		1A6A555E2364C46E004CC535 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A555D2364C46E004CC535 /* ContentView.swift */; };
+		1A6A55602364C470004CC535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6A555F2364C470004CC535 /* Assets.xcassets */; };
+		1A6A55632364C470004CC535 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6A55622364C470004CC535 /* Preview Assets.xcassets */; };
+		1A6A55662364C470004CC535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6A55642364C470004CC535 /* LaunchScreen.storyboard */; };
+		1A6A556B2364C470004CC535 /* Squash Score WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1A6A556A2364C470004CC535 /* Squash Score WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A6A55712364C470004CC535 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6A556F2364C470004CC535 /* Interface.storyboard */; };
+		1A6A55732364C471004CC535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6A55722364C471004CC535 /* Assets.xcassets */; };
+		1A6A557A2364C471004CC535 /* Squash Score WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A6A55792364C471004CC535 /* Squash Score WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A6A557F2364C471004CC535 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A557E2364C471004CC535 /* ContentView.swift */; };
+		1A6A55812364C471004CC535 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A55802364C471004CC535 /* HostingController.swift */; };
+		1A6A55832364C471004CC535 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A55822364C471004CC535 /* ExtensionDelegate.swift */; };
+		1A6A55852364C471004CC535 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A55842364C471004CC535 /* NotificationController.swift */; };
+		1A6A55872364C471004CC535 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A55862364C471004CC535 /* NotificationView.swift */; };
+		1A6A55892364C471004CC535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6A55882364C471004CC535 /* Assets.xcassets */; };
+		1A6A558C2364C471004CC535 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6A558B2364C471004CC535 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A6A556C2364C470004CC535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6A554E2364C46E004CC535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6A55692364C470004CC535;
+			remoteInfo = "Squash Score WatchKit App";
+		};
+		1A6A557B2364C471004CC535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6A554E2364C46E004CC535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6A55782364C471004CC535;
+			remoteInfo = "Squash Score WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A6A55942364C471004CC535 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1A6A557A2364C471004CC535 /* Squash Score WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6A55982364C471004CC535 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1A6A556B2364C470004CC535 /* Squash Score WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A6A55562364C46E004CC535 /* Squash Score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Squash Score.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6A55592364C46E004CC535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A6A555B2364C46E004CC535 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A6A555D2364C46E004CC535 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A6A555F2364C470004CC535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A6A55622364C470004CC535 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A6A55652364C470004CC535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A6A55672364C470004CC535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6A556A2364C470004CC535 /* Squash Score WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Squash Score WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6A55702364C470004CC535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1A6A55722364C471004CC535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A6A55742364C471004CC535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6A55792364C471004CC535 /* Squash Score WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Squash Score WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6A557E2364C471004CC535 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A6A55802364C471004CC535 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		1A6A55822364C471004CC535 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1A6A55842364C471004CC535 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1A6A55862364C471004CC535 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		1A6A55882364C471004CC535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A6A558B2364C471004CC535 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A6A558D2364C471004CC535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6A558E2364C471004CC535 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6A55532364C46E004CC535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6A55762364C471004CC535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6A554D2364C46E004CC535 = {
+			isa = PBXGroup;
+			children = (
+				1A6A55582364C46E004CC535 /* Squash Score */,
+				1A6A556E2364C470004CC535 /* Squash Score WatchKit App */,
+				1A6A557D2364C471004CC535 /* Squash Score WatchKit Extension */,
+				1A6A55572364C46E004CC535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A6A55572364C46E004CC535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A55562364C46E004CC535 /* Squash Score.app */,
+				1A6A556A2364C470004CC535 /* Squash Score WatchKit App.app */,
+				1A6A55792364C471004CC535 /* Squash Score WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A6A55582364C46E004CC535 /* Squash Score */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A55592364C46E004CC535 /* AppDelegate.swift */,
+				1A6A555B2364C46E004CC535 /* SceneDelegate.swift */,
+				1A6A555D2364C46E004CC535 /* ContentView.swift */,
+				1A6A555F2364C470004CC535 /* Assets.xcassets */,
+				1A6A55642364C470004CC535 /* LaunchScreen.storyboard */,
+				1A6A55672364C470004CC535 /* Info.plist */,
+				1A6A55612364C470004CC535 /* Preview Content */,
+			);
+			path = "Squash Score";
+			sourceTree = "<group>";
+		};
+		1A6A55612364C470004CC535 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A55622364C470004CC535 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A6A556E2364C470004CC535 /* Squash Score WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A556F2364C470004CC535 /* Interface.storyboard */,
+				1A6A55722364C471004CC535 /* Assets.xcassets */,
+				1A6A55742364C471004CC535 /* Info.plist */,
+			);
+			path = "Squash Score WatchKit App";
+			sourceTree = "<group>";
+		};
+		1A6A557D2364C471004CC535 /* Squash Score WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A557E2364C471004CC535 /* ContentView.swift */,
+				1A6A55802364C471004CC535 /* HostingController.swift */,
+				1A6A55822364C471004CC535 /* ExtensionDelegate.swift */,
+				1A6A55842364C471004CC535 /* NotificationController.swift */,
+				1A6A55862364C471004CC535 /* NotificationView.swift */,
+				1A6A55882364C471004CC535 /* Assets.xcassets */,
+				1A6A558D2364C471004CC535 /* Info.plist */,
+				1A6A558E2364C471004CC535 /* PushNotificationPayload.apns */,
+				1A6A558A2364C471004CC535 /* Preview Content */,
+			);
+			path = "Squash Score WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1A6A558A2364C471004CC535 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A558B2364C471004CC535 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A6A55552364C46E004CC535 /* Squash Score */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6A55992364C471004CC535 /* Build configuration list for PBXNativeTarget "Squash Score" */;
+			buildPhases = (
+				1A6A55522364C46E004CC535 /* Sources */,
+				1A6A55532364C46E004CC535 /* Frameworks */,
+				1A6A55542364C46E004CC535 /* Resources */,
+				1A6A55982364C471004CC535 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6A556D2364C470004CC535 /* PBXTargetDependency */,
+			);
+			name = "Squash Score";
+			productName = "Squash Score";
+			productReference = 1A6A55562364C46E004CC535 /* Squash Score.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A6A55692364C470004CC535 /* Squash Score WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6A55952364C471004CC535 /* Build configuration list for PBXNativeTarget "Squash Score WatchKit App" */;
+			buildPhases = (
+				1A6A55682364C470004CC535 /* Resources */,
+				1A6A55942364C471004CC535 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6A557C2364C471004CC535 /* PBXTargetDependency */,
+			);
+			name = "Squash Score WatchKit App";
+			productName = "Squash Score WatchKit App";
+			productReference = 1A6A556A2364C470004CC535 /* Squash Score WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1A6A55782364C471004CC535 /* Squash Score WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6A55912364C471004CC535 /* Build configuration list for PBXNativeTarget "Squash Score WatchKit Extension" */;
+			buildPhases = (
+				1A6A55752364C471004CC535 /* Sources */,
+				1A6A55762364C471004CC535 /* Frameworks */,
+				1A6A55772364C471004CC535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Squash Score WatchKit Extension";
+			productName = "Squash Score WatchKit Extension";
+			productReference = 1A6A55792364C471004CC535 /* Squash Score WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6A554E2364C46E004CC535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "James Cosgrove";
+				TargetAttributes = {
+					1A6A55552364C46E004CC535 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					1A6A55692364C470004CC535 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					1A6A55782364C471004CC535 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 1A6A55512364C46E004CC535 /* Build configuration list for PBXProject "Squash Score" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A6A554D2364C46E004CC535;
+			productRefGroup = 1A6A55572364C46E004CC535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6A55552364C46E004CC535 /* Squash Score */,
+				1A6A55692364C470004CC535 /* Squash Score WatchKit App */,
+				1A6A55782364C471004CC535 /* Squash Score WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6A55542364C46E004CC535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6A55662364C470004CC535 /* LaunchScreen.storyboard in Resources */,
+				1A6A55632364C470004CC535 /* Preview Assets.xcassets in Resources */,
+				1A6A55602364C470004CC535 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6A55682364C470004CC535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6A55732364C471004CC535 /* Assets.xcassets in Resources */,
+				1A6A55712364C470004CC535 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6A55772364C471004CC535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6A558C2364C471004CC535 /* Preview Assets.xcassets in Resources */,
+				1A6A55892364C471004CC535 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6A55522364C46E004CC535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6A555A2364C46E004CC535 /* AppDelegate.swift in Sources */,
+				1A6A555C2364C46E004CC535 /* SceneDelegate.swift in Sources */,
+				1A6A555E2364C46E004CC535 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6A55752364C471004CC535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6A55812364C471004CC535 /* HostingController.swift in Sources */,
+				1A6A557F2364C471004CC535 /* ContentView.swift in Sources */,
+				1A6A55852364C471004CC535 /* NotificationController.swift in Sources */,
+				1A6A55832364C471004CC535 /* ExtensionDelegate.swift in Sources */,
+				1A6A55872364C471004CC535 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A6A556D2364C470004CC535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6A55692364C470004CC535 /* Squash Score WatchKit App */;
+			targetProxy = 1A6A556C2364C470004CC535 /* PBXContainerItemProxy */;
+		};
+		1A6A557C2364C471004CC535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6A55782364C471004CC535 /* Squash Score WatchKit Extension */;
+			targetProxy = 1A6A557B2364C471004CC535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A6A55642364C470004CC535 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6A55652364C470004CC535 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1A6A556F2364C470004CC535 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6A55702364C470004CC535 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A6A558F2364C471004CC535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A6A55902364C471004CC535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A6A55922364C471004CC535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Squash Score WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WV3WFS9NRK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Squash Score WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Squash-Score.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		1A6A55932364C471004CC535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Squash Score WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WV3WFS9NRK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Squash Score WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Squash-Score.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		1A6A55962364C471004CC535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV3WFS9NRK;
+				IBSC_MODULE = Squash_Score_WatchKit_Extension;
+				INFOPLIST_FILE = "Squash Score WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Squash-Score.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		1A6A55972364C471004CC535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV3WFS9NRK;
+				IBSC_MODULE = Squash_Score_WatchKit_Extension;
+				INFOPLIST_FILE = "Squash Score WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Squash-Score.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		1A6A559A2364C471004CC535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Squash Score/Preview Content\"";
+				DEVELOPMENT_TEAM = WV3WFS9NRK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Squash Score/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Squash-Score";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A6A559B2364C471004CC535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Squash Score/Preview Content\"";
+				DEVELOPMENT_TEAM = WV3WFS9NRK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Squash Score/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Squash-Score";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6A55512364C46E004CC535 /* Build configuration list for PBXProject "Squash Score" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6A558F2364C471004CC535 /* Debug */,
+				1A6A55902364C471004CC535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6A55912364C471004CC535 /* Build configuration list for PBXNativeTarget "Squash Score WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6A55922364C471004CC535 /* Debug */,
+				1A6A55932364C471004CC535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6A55952364C471004CC535 /* Build configuration list for PBXNativeTarget "Squash Score WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6A55962364C471004CC535 /* Debug */,
+				1A6A55972364C471004CC535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6A55992364C471004CC535 /* Build configuration list for PBXNativeTarget "Squash Score" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6A559A2364C471004CC535 /* Debug */,
+				1A6A559B2364C471004CC535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6A554E2364C46E004CC535 /* Project object */;
+}
