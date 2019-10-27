@@ -17,13 +17,17 @@
 		1A6A55712364C470004CC535 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6A556F2364C470004CC535 /* Interface.storyboard */; };
 		1A6A55732364C471004CC535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6A55722364C471004CC535 /* Assets.xcassets */; };
 		1A6A557A2364C471004CC535 /* Squash Score WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A6A55792364C471004CC535 /* Squash Score WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1A6A557F2364C471004CC535 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A557E2364C471004CC535 /* ContentView.swift */; };
+		1A6A557F2364C471004CC535 /* inMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A557E2364C471004CC535 /* inMatchView.swift */; };
 		1A6A55812364C471004CC535 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A55802364C471004CC535 /* HostingController.swift */; };
 		1A6A55832364C471004CC535 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A55822364C471004CC535 /* ExtensionDelegate.swift */; };
 		1A6A55852364C471004CC535 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A55842364C471004CC535 /* NotificationController.swift */; };
 		1A6A55872364C471004CC535 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A55862364C471004CC535 /* NotificationView.swift */; };
 		1A6A55892364C471004CC535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6A55882364C471004CC535 /* Assets.xcassets */; };
 		1A6A558C2364C471004CC535 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6A558B2364C471004CC535 /* Preview Assets.xcassets */; };
+		1A6A559D2364C61B004CC535 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A559C2364C61B004CC535 /* OptionsView.swift */; };
+		1ABF42F6236584EB00FE1012 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF42F5236584EB00FE1012 /* MatchesView.swift */; };
+		1ABF42FA23659DFD00FE1012 /* OptionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF42F923659DFD00FE1012 /* OptionsData.swift */; };
+		1ABF42FB23659E0500FE1012 /* OptionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF42F923659DFD00FE1012 /* OptionsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +86,7 @@
 		1A6A55722364C471004CC535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A6A55742364C471004CC535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A6A55792364C471004CC535 /* Squash Score WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Squash Score WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A6A557E2364C471004CC535 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A6A557E2364C471004CC535 /* inMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inMatchView.swift; sourceTree = "<group>"; };
 		1A6A55802364C471004CC535 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		1A6A55822364C471004CC535 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		1A6A55842364C471004CC535 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -91,6 +95,9 @@
 		1A6A558B2364C471004CC535 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A6A558D2364C471004CC535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A6A558E2364C471004CC535 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1A6A559C2364C61B004CC535 /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		1ABF42F5236584EB00FE1012 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		1ABF42F923659DFD00FE1012 /* OptionsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				1A6A55582364C46E004CC535 /* Squash Score */,
-				1A6A556E2364C470004CC535 /* Squash Score WatchKit App */,
 				1A6A557D2364C471004CC535 /* Squash Score WatchKit Extension */,
+				1A6A556E2364C470004CC535 /* Squash Score WatchKit App */,
 				1A6A55572364C46E004CC535 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,6 +144,9 @@
 				1A6A55592364C46E004CC535 /* AppDelegate.swift */,
 				1A6A555B2364C46E004CC535 /* SceneDelegate.swift */,
 				1A6A555D2364C46E004CC535 /* ContentView.swift */,
+				1ABF42F5236584EB00FE1012 /* MatchesView.swift */,
+				1A6A559C2364C61B004CC535 /* OptionsView.swift */,
+				1ABF42F923659DFD00FE1012 /* OptionsData.swift */,
 				1A6A555F2364C470004CC535 /* Assets.xcassets */,
 				1A6A55642364C470004CC535 /* LaunchScreen.storyboard */,
 				1A6A55672364C470004CC535 /* Info.plist */,
@@ -166,7 +176,7 @@
 		1A6A557D2364C471004CC535 /* Squash Score WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1A6A557E2364C471004CC535 /* ContentView.swift */,
+				1A6A557E2364C471004CC535 /* inMatchView.swift */,
 				1A6A55802364C471004CC535 /* HostingController.swift */,
 				1A6A55822364C471004CC535 /* ExtensionDelegate.swift */,
 				1A6A55842364C471004CC535 /* NotificationController.swift */,
@@ -320,9 +330,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABF42FA23659DFD00FE1012 /* OptionsData.swift in Sources */,
 				1A6A555A2364C46E004CC535 /* AppDelegate.swift in Sources */,
 				1A6A555C2364C46E004CC535 /* SceneDelegate.swift in Sources */,
 				1A6A555E2364C46E004CC535 /* ContentView.swift in Sources */,
+				1ABF42F6236584EB00FE1012 /* MatchesView.swift in Sources */,
+				1A6A559D2364C61B004CC535 /* OptionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,8 +343,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABF42FB23659E0500FE1012 /* OptionsData.swift in Sources */,
 				1A6A55812364C471004CC535 /* HostingController.swift in Sources */,
-				1A6A557F2364C471004CC535 /* ContentView.swift in Sources */,
+				1A6A557F2364C471004CC535 /* inMatchView.swift in Sources */,
 				1A6A55852364C471004CC535 /* NotificationController.swift in Sources */,
 				1A6A55832364C471004CC535 /* ExtensionDelegate.swift in Sources */,
 				1A6A55872364C471004CC535 /* NotificationView.swift in Sources */,

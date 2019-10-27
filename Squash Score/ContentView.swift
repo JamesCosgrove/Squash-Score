@@ -9,8 +9,28 @@
 import SwiftUI
 
 struct ContentView: View {
+	
+	@State private var showOptions: Bool = false
+	
     var body: some View {
-        Text("Hello World!")
+		NavigationView {
+			
+			VStack {
+				MatchesView()
+			}.navigationBarTitle("Matches")
+			.navigationBarItems(trailing: Button(action: {
+					print("Button Pushed")
+					self.showOptions = true
+				})
+				{
+					Image(systemName: "gear")
+						.imageScale(.large)
+			}.sheet(isPresented: self.$showOptions) {
+					OptionsView()
+				}
+			)
+			
+		}.accentColor(.green)
     }
 }
 
