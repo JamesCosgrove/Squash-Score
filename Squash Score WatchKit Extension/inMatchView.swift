@@ -31,13 +31,12 @@ struct inMatchView: View {
 							Button(action: {
 								if self.youServe {
 									self.youScore += 1
+									if self.youScore >= self.optionsData.setPoints {
+										self.youScore = 0
+										self.opponentScore = 0
+									}
 								}
 								else {
-									
-								}
-								if self.youScore >= self.optionsData.setPoints {
-									self.youScore = 0
-									self.opponentScore = 0
 									self.youServe.toggle()
 								}
 								
@@ -56,10 +55,14 @@ struct inMatchView: View {
 							.cornerRadius(10)
 						VStack {
 							Button(action: {
-								self.opponentScore += 1
-								if self.opponentScore >= self.optionsData.setPoints {
-									self.youScore = 0
-									self.opponentScore = 0
+								if !self.youServe {
+									self.opponentScore += 1
+									if self.opponentScore >= self.optionsData.setPoints {
+										self.youScore = 0
+										self.opponentScore = 0
+									}
+								}
+								else {
 									self.youServe.toggle()
 								}
 							}, label: {
